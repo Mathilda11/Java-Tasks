@@ -10,6 +10,7 @@ import java.util.Properties;
  *
  */
 public class Config {
+	//加载	
 	static{			
 		try {
 			Properties p=new Properties();
@@ -20,7 +21,7 @@ public class Config {
 			input.close();
 		} catch (IOException e) {
 			e.printStackTrace();
-		}//加载		
+		}	
 	}	
 	private static String host;//主机地址
 	private static int port;//端口
