@@ -1,5 +1,5 @@
 # Java-Tasks
-🚗[豆瓣top250电影查询组件](https://github.com/Mathilda11/Java-Tasks/tree/master/doubanmovies)  
+[豆瓣top250电影查询组件](https://github.com/Mathilda11/Java-Tasks/tree/master/doubanmovies)  
 
 😳功能  
 
