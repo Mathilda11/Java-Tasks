@@ -9,6 +9,7 @@
 数据库：MongDB 2.6.10 
 
 - 使用Scrapy框架爬取数据，存储在MongoDB数据库中。  
-   - [豆瓣电影top250和MongoDB数据存储](https://github.com/Mathilda11/Scrapy_Project/tree/master/Project_7) 👈
-- 使用Pymongo保存在MongoDB中。 
+   - [豆瓣电影top250和MongoDB数据存储](https://github.com/Mathilda11/Scrapy_Project/tree/master/Project_7) 👈   
+   
+   - 使用Pymongo保存在MongoDB中。 
 - 使用Java连接MongoDB实现可带条件查询电影数据的方法，并用Maven打包。
