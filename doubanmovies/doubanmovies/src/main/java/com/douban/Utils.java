@@ -39,8 +39,8 @@ public class Utils {
 		BasicDBObject bson = new BasicDBObject(map);//构建查询条件			
 		FindIterable<Document> find = collection.find(bson);
 		int skip= (pageIndex-1)*pageSize;
-		find.skip( skip);//跳过记录数
-		find.limit(pageSize);//一页查询记录数
+		find.skip(skip);//跳过记录数
+		find.limit(pageSize);//每页查询记录数
 		//{ total:x,rows:[]  }
 		long count = collection.count(bson);
 		Map<String,Object> m = new HashMap();
