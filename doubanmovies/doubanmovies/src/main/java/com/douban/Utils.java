@@ -26,8 +26,8 @@ public class Utils {
 		return collection.find(bson);
 	}
 	/**
-	 * 分页查询日志
-	 * @param logName 日志名称
+	 * 分页查询
+	 * @param tableName 表名称
 	 * @param map 条件
 	 * @param pageIndex 页码
 	 * @param pageSize 页大小
