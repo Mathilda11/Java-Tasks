@@ -10,11 +10,7 @@ import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 
-/**
- * 站点日志数据工具类
- * @author Administrator
- *
- */
+
 public class Utils {
 	
 	/**
